@@ -8,6 +8,7 @@ from requests.utils import quote
 import string
 
 app = Flask(__name__)
+# GANTI CONFIG DIBAWAH MENYESUAIKAN USER,PASS,HOST,PORT YANG ANDA GUNAKAN UNTUK POSTGRESQL ANDA
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:kumiskucing@localhost:5432/arkademy'
 CORS(app, suppor_credentials=True)
 db = SQLAlchemy(app)

@@ -46,7 +46,7 @@ __Langkah membuat database:__
 ```
 app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://postgres:kumiskucing@localhost:5432/arkademy'
 ```
-- setelah selesai, tekan F5 pada file "arkademy.py"
+- setelah selesai, tekan F5 pada file "arkademy.py" atau buka terminal lalu jalankan "python3 arkademy.py"
 
 __Langkah menjalankan front-end:__
 - masuk ke folder **frontend**
